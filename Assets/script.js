@@ -87,7 +87,7 @@ $(document).ready(function () {
     })
 
     function timeTracker() {
-        var currentHour = moment().hour();
+        var currentHour = 10;
 
         $(".time-block").each(function() {
             var currentTimeblock = parseInt($(this).attr("id"));
